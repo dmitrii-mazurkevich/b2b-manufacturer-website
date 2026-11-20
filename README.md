@@ -1,10 +1,10 @@
-# B2B site for a rebar plant
+# B2B site for an industrial valve plant
 
 A valve plant: catalogue with technical filters and a quote request built straight from it.
 
 **Live:** https://dmitrii-mazurkevich.github.io/b2b-manufacturer-website/
 
-![B2B site for a rebar plant](preview.png)
+![B2B site for an industrial valve plant](preview.png)
 
 ## Built with
 
