@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dmitrii-mazurkevich.github.io/b2b-manufacturer-website/sitemap.xml

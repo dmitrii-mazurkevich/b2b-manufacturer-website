@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-i18n="rfq.metaTitle">Request a quote - Ferrolit</title>
+<meta name="description" data-i18n-attr="content:rfq.metaDesc" content="Request a commercial offer for pipeline valves: positions, project details and contacts. Reply within one working day.">
+<meta name="theme-color" content="#23282D">
+<link rel="canonical" href="https://dmitrii-mazurkevich.github.io/b2b-manufacturer-website/rfq.html">
+<link rel="alternate" hreflang="en" href="https://dmitrii-mazurkevich.github.io/b2b-manufacturer-website/rfq.html?lang=en">
+<link rel="alternate" hreflang="ru" href="https://dmitrii-mazurkevich.github.io/b2b-manufacturer-website/rfq.html?lang=ru">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Request a quote - Ferrolit">
+<meta property="og:description" content="Request a commercial offer for pipeline valves: positions, project details and contacts. Reply within one working day.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%2323282D'/%3E%3Ccircle cx='32' cy='32' r='14' fill='none' stroke='%2393B4CC' stroke-width='6'/%3E%3Cpath d='M8 32h10M46 32h10' stroke='%2393B4CC' stroke-width='6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Golos+Text:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+  (function () {
+    var d = document.documentElement, langs = ['en', 'ru'], lang = null;
+    var m = location.search.match(/[?&]lang=([a-z]{2})/i);
+    if (m && langs.indexOf(m[1].toLowerCase()) > -1) lang = m[1].toLowerCase();
+    if (!lang) { try { var s = localStorage.getItem('fv-lang'); if (langs.indexOf(s) > -1) lang = s; } catch (e) {} }
+    if (!lang) lang = /^ru/i.test(navigator.language || '') ? 'ru' : 'en';
+    d.setAttribute('data-lang', lang);
+    if (lang !== 'en') { d.className += ' i18n-pending'; setTimeout(function () { d.classList.remove('i18n-pending'); }, 1200); }
+  })();
+</script>
+</head>
+<body data-page="rfq">
+<a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+<div class="utility"><div class="container utility__inner">
+  <span data-i18n="util.hours">Mon-Fri 8:00-18:00</span>
+  <a href="tel:+10000000000">+1 000 000 00 00</a>
+  <a href="mailto:sales@ferrolit.example.com">sales@ferrolit.example.com</a>
+</div></div>
+<header class="site-header">
+  <div class="container header__inner">
+    <a class="logo" href="index.html" aria-label="Ferrolit, home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="9" fill="none" stroke="currentColor" stroke-width="4"/><path d="M2 20h7M31 20h7M20 4v7" stroke="currentColor" stroke-width="4"/></svg>
+      <span>FERROLIT</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Main">
+      <a href="products.html" data-i18n="nav.products">Products</a>
+      <a href="company.html" data-i18n="nav.company">Company</a>
+      <a href="company.html#certificates" data-i18n="nav.certs">Certificates</a>
+      <a href="careers.html" data-i18n="nav.careers">Careers</a>
+    </nav>
+    <div class="header__actions">
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="ru" aria-pressed="false">RU</button>
+      </div>
+      <a class="btn btn--sm rfq-btn" href="rfq.html"><span data-i18n="nav.rfq">Request a quote</span> <span class="count" data-rfq-count hidden>0</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Menu" data-i18n-attr="aria-label:nav.menuBtn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+  <div class="container">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="index.html" data-i18n="nav.home">Home</a></li><li aria-current="page" data-i18n="nav.rfq">Request a quote</li></ol></nav>
+    <h1 class="h1" data-i18n="rfq.title">Request a quote</h1>
+    <p class="lede" data-i18n="rfq.lede">Three short steps. The more precise the positions, the more precise the price, but an approximate list is fine too.</p>
+  </div>
+</section>
+<section class="section section--tight">
+  <div class="container rfq-wrap">
+    <ol class="progress" aria-label="Steps" data-i18n-attr="aria-label:rfq.stepsAria">
+      <li aria-current="step"><span>1</span> <b data-i18n="rfq.s1">Positions</b></li>
+      <li><span>2</span> <b data-i18n="rfq.s2">Project</b></li>
+      <li><span>3</span> <b data-i18n="rfq.s3">Contacts</b></li>
+    </ol>
+    <form class="panel" data-rfq novalidate>
+      <div data-step="1">
+        <h2 class="h3" data-i18n="rfq.s1h">What do you need?</h2>
+        <ul class="rlines" data-lines></ul>
+        <p class="error" data-lines-error aria-live="polite"></p>
+        <div class="row-actions">
+          <a class="btn btn--ghost" href="products.html" data-i18n="rfq.fromCat">Add from the catalogue</a>
+          <button class="btn btn--ghost" type="button" data-add-custom data-i18n="rfq.addCustom">Add a custom position</button>
+        </div>
+        <div class="nav-row"><span></span><button class="btn" type="button" data-next data-i18n="rfq.next">Next</button></div>
+      </div>
+      <div data-step="2" hidden>
+        <h2 class="h3" data-i18n="rfq.s2h">About the project</h2>
+        <div class="grid2">
+          <div class="field"><label for="industry" data-i18n="rfq.industry">Industry</label>
+            <select id="industry" name="industry" required>
+              <option value="" data-i18n="rfq.choose">Choose</option>
+              <option data-i18n="home.i1">Water and wastewater</option><option data-i18n="home.i2">Oil and gas</option>
+              <option data-i18n="home.i3">Energy and heating</option><option data-i18n="home.i4">Chemical and food</option><option data-i18n="rfq.other">Other</option>
+            </select><span class="error" aria-live="polite"></span></div>
+          <div class="field"><label for="country" data-i18n="rfq.country">Delivery country</label><input id="country" name="country" autocomplete="country-name" required><span class="error" aria-live="polite"></span></div>
+          <div class="field"><label for="deadline"><span data-i18n="rfq.deadline">Needed by</span> <span class="muted" data-i18n="rfq.optional">(optional)</span></label><input id="deadline" name="deadline" type="month"></div>
+          <div class="field"><label for="tender"><span data-i18n="rfq.tender">Tender or project number</span> <span class="muted" data-i18n="rfq.optional">(optional)</span></label><input id="tender" name="tender"></div>
+        </div>
+        <fieldset class="checks"><legend data-i18n="rfq.docs">Documents to include</legend>
+          <label class="check"><input type="checkbox" name="docs" value="cert" checked><span data-i18n="rfq.d1">Certificate of conformity</span></label>
+          <label class="check"><input type="checkbox" name="docs" value="pass" checked><span data-i18n="rfq.d2">Valve passport and test report</span></label>
+          <label class="check"><input type="checkbox" name="docs" value="3d"><span data-i18n="rfq.d3">Drawings and 3D models</span></label>
+          <label class="check"><input type="checkbox" name="docs" value="ex"><span data-i18n="rfq.d4">Explosion-proof certificate for actuators</span></label>
+        </fieldset>
+        <div class="nav-row"><button class="link" type="button" data-prev data-i18n="rfq.back">Back</button><button class="btn" type="button" data-next data-i18n="rfq.next">Next</button></div>
+      </div>
+      <div data-step="3" hidden>
+        <h2 class="h3" data-i18n="rfq.s3h">Where to send the offer</h2>
+        <div class="grid2">
+          <div class="field"><label for="company" data-i18n="rfq.company">Company</label><input id="company" name="company" autocomplete="organization" required><span class="error" aria-live="polite"></span></div>
+          <div class="field"><label for="taxid"><span data-i18n="rfq.taxid">Tax ID</span> <span class="muted" data-i18n="rfq.optional">(optional)</span></label><input id="taxid" name="taxid"></div>
+          <div class="field"><label for="person" data-i18n="rfq.person">Contact person</label><input id="person" name="person" autocomplete="name" required><span class="error" aria-live="polite"></span></div>
+          <div class="field"><label for="remail" data-i18n="rfq.email">Business email</label><input id="remail" name="email" type="email" autocomplete="email" required><span class="error" aria-live="polite"></span></div>
+          <div class="field"><label for="rphone"><span data-i18n="rfq.phone">Phone</span> <span class="muted" data-i18n="rfq.optional">(optional)</span></label><input id="rphone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="rnote"><span data-i18n="rfq.comment">Comment</span> <span class="muted" data-i18n="rfq.optional">(optional)</span></label><input id="rnote" name="note"></div>
+        </div>
+        <p class="muted small" data-i18n="rfq.privacy">We use these details only to prepare and send the offer.</p>
+        <div class="nav-row"><button class="link" type="button" data-prev data-i18n="rfq.back">Back</button><button class="btn" type="submit" data-i18n="rfq.send">Send the request</button></div>
+      </div>
+    </form>
+    <div class="panel done" data-rfq-done hidden>
+      <svg viewBox="0 0 24 24" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+      <h2 class="h3" data-done-title></h2>
+      <p data-done-text></p>
+      <a class="btn" href="products.html" data-i18n="rfq.backCat">Back to the catalogue</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__grid">
+    <div>
+      <p class="logo logo--footer"><span>FERROLIT</span></p>
+      <p data-i18n="foot.about">Industrial pipeline valves since 1998. Design, casting, machining and testing under one roof.</p>
+    </div>
+    <div>
+      <h2 class="footer__h" data-i18n="foot.products">Products</h2>
+      <ul>
+        <li><a href="products.html?type=ball" data-i18n="foot.ball">Ball valves</a></li>
+        <li><a href="products.html?type=gate" data-i18n="foot.gate">Gate valves</a></li>
+        <li><a href="products.html?type=butterfly" data-i18n="foot.butterfly">Butterfly valves</a></li>
+        <li><a href="products.html?type=actuator" data-i18n="foot.actuator">Actuators</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer__h" data-i18n="foot.company">Company</h2>
+      <ul>
+        <li><a href="company.html" data-i18n="nav.company">Company</a></li>
+        <li><a href="company.html#certificates" data-i18n="nav.certs">Certificates</a></li>
+        <li><a href="careers.html" data-i18n="nav.careers">Careers</a></li>
+        <li><a href="company.html#legal" data-i18n="foot.legal">Legal details</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2 class="footer__h" data-i18n="foot.contact">Sales</h2>
+      <p><a href="tel:+10000000000">+1 000 000 00 00</a><br><a href="mailto:sales@ferrolit.example.com">sales@ferrolit.example.com</a></p>
+      <a class="btn btn--sm btn--light" href="rfq.html" data-i18n="nav.rfq">Request a quote</a>
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© 1998-2026 Ferrolit</span>
+    <span data-i18n-html="foot.concept">Site by <a href="https://github.com/dmitrii-mazurkevich">Dmitrii Mazurkevich</a>.</span>
+  </div>
+</footer>
+<script src="assets/js/i18n.js" defer></script>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>
